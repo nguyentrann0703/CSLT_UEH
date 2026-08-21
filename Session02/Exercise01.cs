@@ -1,6 +1,6 @@
 ﻿internal class Program
 {
-    private static void Main(string[] args)
+    private static void Main1(string[] args)
     {
         int a = 45;
         int b = 65;
