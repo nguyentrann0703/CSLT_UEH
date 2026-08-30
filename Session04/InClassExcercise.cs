@@ -134,21 +134,24 @@ internal class InClassExcercise
                             Console.WriteLine($"x_1 = {(-b + Math.Sqrt(delta)) / (2*a)}, x_2 = {(-b - Math.Sqrt(delta)) / (2*a)} ");
                         }
         } 
+    }
+    
 
 
 
         
-    }
-    private static void Main(string[] args)
+    private static void Main2(string[] args)
     {
         // BT_1();
         // BT_2();
         // BT_3();
         // BT_4();
-        BT_5();
+        // BT_5();
         // Console.Write("Nhập a: "); double a = double.Parse(Console.ReadLine());
         // Console.Write("Nhập b: "); double b = double.Parse(Console.ReadLine());
         // Console.Write("Nhập c: "); double c = double.Parse(Console.ReadLine());
+
+        // ----- BÀI TẬP 3 LMS -----
         // GiaiPT(a, b, c);
 
         
