@@ -87,6 +87,9 @@ internal class InClassExcercise
             Console.WriteLine("The input is another symbol!");
         }
     }
+
+
+    // ----- BÀI TẬP 3 LMS -----
     static void GiaiPT(double a, double b, double c)
     {
         
@@ -135,12 +138,106 @@ internal class InClassExcercise
                         }
         } 
     }
+
     
 
+    static void BT_6()
+    {
+        Console.Write("Enter an integer: ");
+        int num = int.Parse(Console.ReadLine());
 
+        if (num % 2 == 0)
+        {
+            Console.WriteLine($"{num} is an even");
+        }
+        else
+        {
+            Console.WriteLine($"{num} is an odd");
+        }
+    }
 
+    static void BT_7()
+    {
+        Console.Write("Input num1: "); int num1 = int.Parse(Console.ReadLine());
+        Console.Write("Input num2: "); int num2 = int.Parse(Console.ReadLine());
+        Console.Write("Input num3: "); int num3 = int.Parse(Console.ReadLine());
+
+        if (num1 >= num2 && num1 >= num3)
+        {
+            Console.WriteLine($"Num1 ({num1}) is the greatest ");
+        }
+        else if (num2 >= num1 && num2 >= num3)
+        {
+            Console.WriteLine($"Num2 ({num2}) is the greatest ");
+        }
+        else
+        {
+            Console.WriteLine($"Num3 ({num3}) is the greatest ");
+        }
+    }
+    static void BT_8()
+    {
+        Console.Write("Input side 1 of the triangle: "); int side_a = int.Parse(Console.ReadLine());
+        Console.Write("Input side 2 of the triangle: "); int side_b = int.Parse(Console.ReadLine());
+        Console.Write("Input side 3 of the triangle: "); int side_c = int.Parse(Console.ReadLine());
+
+        if (side_a + side_b > side_c && side_a + side_c > side_b && side_b + side_c > side_a)
+        {
+            if (side_a == side_b && side_b == side_c)
+            {
+                Console.WriteLine("This triangle is equilateral!");
+            }
+            else if (side_a == side_b || side_a == side_c || side_b == side_c)
+            {
+                Console.WriteLine("This triangle is isosceles!");
+            }
+            else
+            {
+                Console.WriteLine("This triangle is scalene!");
+            }
+        }
+        else
+        {
+            Console.WriteLine(" Unvalid triangle...");
+        }
+    }
+
+    static void BT_9()
+    {
+        Console.Write("Input X: "); int x = int.Parse(Console.ReadLine());
+        Console.Write("Input Y: "); int y = int.Parse(Console.ReadLine());
+
+        if (x> 0 && y> 0)
+        {
+            Console.WriteLine($"The point ({x},{y}) is in the first quadrant");
+        }
+        else if (x < 0 && y > 0)
+        {
+            Console.WriteLine($"The point ({x},{y}) is in the second quadrant");
+        }
+        else if (x < 0 && y < 0)
+        {
+            Console.WriteLine($"The point ({x},{y}) is in the third quadrant");
+        }
+        else if (x > 0 && y < 0)
+        {
+            Console.WriteLine($"The point ({x},{y}) is in the forth quadrant");
+        }
+        else if (x == 0 && y ==0)
+        {
+            Console.WriteLine($"The point ({x},{y}) is at the origin");
+        }
+        else if (x == 0)
+        {
+            Console.WriteLine($"The point ({x},{y}) is on the Y-axis");
+        }
+        else if (y ==0)
+        {
+            Console.WriteLine($"The point ({x},{y}) is on the X-axis");
+        }
+    }
         
-    private static void Main2(string[] args)
+    private static void Main(string[] args)
     {
         // BT_1();
         // BT_2();
@@ -153,6 +250,11 @@ internal class InClassExcercise
 
         // ----- BÀI TẬP 3 LMS -----
         // GiaiPT(a, b, c);
+        // BT_6();
+        // BT_7();
+        // BT_8();
+        BT_9();
+
 
         
     }
