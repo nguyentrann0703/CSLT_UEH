@@ -253,7 +253,7 @@ internal class BAI_TAP
         Console.WriteLine($"Điểm GPA Thang 4: {gpa:F2}");
         Console.WriteLine($"Xếp Loại Học Lực: {xep_loai}");
     }
-    private static void Main(string[] args)
+    private static void Main2(string[] args)
     {   
         // BT_1();
         // BT_2();

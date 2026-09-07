@@ -237,7 +237,7 @@ internal class InClassExcercise
         }
     }
         
-    private static void Main(string[] args)
+    private static void Main2(string[] args)
     {
         // BT_1();
         // BT_2();
