@@ -323,7 +323,7 @@ internal class Session05
     
 
 
-    private static void Main(string[] args)
+    private static void Main2(string[] args)
     {   
         doan_so();
         // bang_cuu_chuong();

@@ -74,7 +74,7 @@ internal partial class Session07
     // 6. to reverse an array of integer values.
     // 7. to find duplicate values in an array of values.
     // 8. to remove duplicate elements from an array.
-    private static void Main(string[] args)
+    private static void Main2(string[] args)
     {
         Console.Write("Input number of elements: "); int n = int.Parse(Console.ReadLine());
         int[] arr = new int[n];
