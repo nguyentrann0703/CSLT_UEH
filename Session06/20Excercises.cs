@@ -223,7 +223,7 @@ internal partial class Excercise_20
         string[] tu = sentence.Split(" ");
         return tu.Length;
     }
-    private static void Main(string[] args)
+    private static void Main2(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
         // Bài 1: Tính tổng
