@@ -250,7 +250,7 @@ internal partial class Excercise_20
         // Console.WriteLine($"Giai thừa của {n} là {TinhGiaiThua(n)}");
 
         // Bài 5: Đảo ngược chuỗi ký tự
-        // Console.Write("Nhập một chuỗi: "); string input = Console. ReadLine();
+        // Console.Write("Nhập một chuỗi: "); string input = Console.ReadLine();
         // Console.WriteLine($"Chuỗi ngược là: {DaoNguocChuoiKyTu(input)}");
 
         // Bài 6: Kiểm tra số nguyên tố

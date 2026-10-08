@@ -420,7 +420,7 @@ internal partial class HW_Excercise
     
     
 
-    private static void Main(string[] args)
+    private static void Main2(string[] args)
     {
         
         // ----------- SECTION 1 --------------

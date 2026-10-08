@@ -74,12 +74,12 @@ internal partial class Session07
     // 6. to reverse an array of integer values.
     // 7. to find duplicate values in an array of values.
     // 8. to remove duplicate elements from an array.
-    private static void Main2(string[] args)
+    private static void Main1(string[] args)
     {
-        Console.Write("Input number of elements: "); int n = int.Parse(Console.ReadLine());
-        int[] arr = new int[n];
-        InitializingRandomArray(arr, n);
-        PrintArray(arr);
+        // Console.Write("Input number of elements: "); int n = int.Parse(Console.ReadLine());
+        // int[] arr = new int[n];
+        // InitializingRandomArray(arr, n);
+        // PrintArray(arr);
 
         // Excercise 1
         // float avg = CalcAvg(arr);
@@ -92,12 +92,18 @@ internal partial class Session07
         // else Console.WriteLine($"Sorry...The array does not contain value {val}");
 
         // Excercise 3
-        Console.Write("Input the number you want to find: "); int val = int.Parse(Console.ReadLine());
-        int idx = FindingIndex(arr, n, val);
-        if (idx != -1)
-        Console.WriteLine($"The index of {val} in the array is {idx}");
-        else Console.WriteLine($"Cannot find the number {val} in the array");
+        // Console.Write("Input the number you want to find: "); int val = int.Parse(Console.ReadLine());
+        // int idx = FindingIndex(arr, n, val);
+        // if (idx != -1)
+        // Console.WriteLine($"The index of {val} in the array is {idx}");
+        // else Console.WriteLine($"Cannot find the number {val} in the array");
 
+        int k = 1;
+        for (int i = 1; i <= 4; i++) {
+        Console.Write(new string(' ', 4 - i));
+        for (int j = 1; j <= i; j++)
+        Console.Write(k++ + " ");
+        Console.WriteLine(); }
 
 
 
