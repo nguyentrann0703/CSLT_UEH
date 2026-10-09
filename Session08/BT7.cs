@@ -132,7 +132,7 @@ internal partial class BT7
 
 
 
-    private static void Main(string[] args)
+    private static void Main2(string[] args)
     {   
         // -to input a string and print it.
         Console.Write("Please input a string: "); string s = Console.ReadLine();
